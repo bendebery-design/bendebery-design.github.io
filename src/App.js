@@ -16,9 +16,11 @@ function App() {
         <article>
           <h2>Contacts</h2>
 
-          <p>Email: bendebery.design@gmail.com</p>
+          <p><a className="custom-link" href="https://www.instagram.com/bendebery_design" target="_blank" rel="noreferrer">
+          <img src="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" alt="Instagram: bendebery_design"></img>
+          </a> </p>
 
-          <p><a className="custom-link" href="https://www.instagram.com/bendebery_design" target="_blank" rel="noreferrer">Instagram: bendebery_design</a> </p>
+          <p>Email: bendebery.design@gmail.com</p>
         </article>
       </section>
     </div>
