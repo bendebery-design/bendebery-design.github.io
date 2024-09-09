@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//bendebery-design.github.io/static/css/main.cd27b975.css",
-    "main.js": "//bendebery-design.github.io/static/js/main.97a0b7f9.js",
-    "static/js/453.8ab44547.chunk.js": "//bendebery-design.github.io/static/js/453.8ab44547.chunk.js",
-    "static/media/image.png": "//bendebery-design.github.io/static/media/image.79ce76be10e1f5884d9b.png",
-    "index.html": "//bendebery-design.github.io/index.html",
-    "main.cd27b975.css.map": "//bendebery-design.github.io/static/css/main.cd27b975.css.map",
-    "main.97a0b7f9.js.map": "//bendebery-design.github.io/static/js/main.97a0b7f9.js.map",
-    "453.8ab44547.chunk.js.map": "//bendebery-design.github.io/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "/static/css/main.cd27b975.css",
+    "main.js": "/static/js/main.6720ee12.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/image.png": "/static/media/image.79ce76be10e1f5884d9b.png",
+    "index.html": "/index.html",
+    "main.cd27b975.css.map": "/static/css/main.cd27b975.css.map",
+    "main.6720ee12.js.map": "/static/js/main.6720ee12.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd27b975.css",
-    "static/js/main.97a0b7f9.js"
+    "static/js/main.6720ee12.js"
   ]
 }
