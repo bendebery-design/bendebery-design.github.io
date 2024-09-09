@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  background-color: #282c34;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,7 +21,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,4 +41,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  width: 90%;
+  background: rgb(23, 29, 29);
+  color: aliceblue;
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.custom-link {
+  color: rgb(0, 124, 128);
+  font-weight: bold;
+}
+
+.custom-link:hover {
+  color: rgb(1, 76, 78);
 }
