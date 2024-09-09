@@ -65,7 +65,10 @@ a:hover {
 
 .custom-link {
   color: rgb(0, 124, 128);
+  display: flex;
   font-weight: bold;
+  align-items: center;
+  justify-content: center;
 }
 
 .custom-link:hover {
