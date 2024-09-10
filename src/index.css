@@ -5,9 +5,102 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 100%;
+}
+
+.App-logo-small {
+  height: 7vmin;
+  pointer-events: none;
+  border-radius: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .App-logo-small  {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App-header {
+  min-height: 80vh;
+  display: flex;
+  font-weight: bold;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.Root-header {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+/* Footer styles */
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+article {
+  width: 90%;
+  background: rgb(23, 29, 29);
+  color: aliceblue;
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.custom-link {
+  color: rgb(0, 124, 128);
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-link:hover {
+  color: rgb(1, 76, 78);
 }
